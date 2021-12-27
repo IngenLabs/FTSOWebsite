@@ -572,8 +572,14 @@ font-size: 4vh;
 
 }
 /* ipad */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 410px){
+    .delegate {
+        font-size: 3vh;
+        }
 
+        .subadd {
+            font-size: 1vh;
+        }
 }
 
 #scrolltotup {
