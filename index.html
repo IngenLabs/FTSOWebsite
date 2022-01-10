@@ -4,7 +4,7 @@
   <title>InGen Labs.</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/favicon.png">
+  <link rel="shortcut icon" href="assets/ingenlogo.svg">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -13,18 +13,18 @@
 
 </head>
 <body>
-
+<img class="floater1" src="assets/circle.svg" alt="">
     <nav class="nav" style="z-index: 99;">
-        <div class="navi">
-            <div class="logo" style="padding-top: 10px;">
-                <a href="#home"><img src="assets/logo.png" class="ingen-logo" alt="InGen Labs"></a>
+        <div class="navi container">
+            <div class="logo">
+                <a href="#home"><img src="assets/ingenlogo.svg" class="ingen-logo" alt="InGen Labs"></a>
             </div>
             <div id="mainListDiv" class="main_list">
-                <ul class="navlinks" id="myLinks">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                </ul>
+              <ul class="navlinks" id="myLinks">
+                <li ><a href="#home" class="btx activex">Home</a></li>
+                <li ><a href="#about" class="btx">About</a></li>
+                <li ><a href="#services" class="btx">Services</a></li>
+            </ul>
             </div>
             <span class="navTrigger">
               <i></i>
@@ -33,34 +33,53 @@
             </span>
           </div>
       </nav>
-
     <!-- Home InGen start -->
-    <div id="home" class="jumbotron" style="margin-bottom: -0.001%;">
-        <div class="container">
-            <div class=”banner”>
-                <div class=”hero”>
-                <div class="header-title" >
-                    <div class="container">
-                    <h1 class="delegate display-1 text-center text-white fs-2x">DELEGATE WITH US.</h1>
+    <div id="home" class="jumbotron">
+        <div class="">
+        <div class="row hero-container">
+          <div class="col-lg-6">
+            
+                    <div class="">
+                    <h1 class="delegate text-center">Delegate</h1>
+                    <h1 class="delegate text-center text-white"> with Us.</h1>
                     <h3 class="text-white text-center subadd">{0x664e070592063bFE5072F0aC25C6C11e5ccF9928}</h3><br>
-                    <p class="text-center"><a href="#services" class="btn btn-outline-warning btn-lg p-lg-3">More Information</a></p>
-                    <div class="down-arrow text-center">
-                        <a href="#about" class="text-center align-bottom text-warning">
-
-                            <img class="down-arrowimg" src="assets/chevron-down.png" alt="explore ingen">
-                        </a></div>
-                </div>
-                </div>
-                </div>
+                    <p class="text-center"><a href="#services" class="btn custom-btn button-gradient">More Information</a></p>
+                    
+    
               </div>
+            </div>
+            <div class="col-lg-6 hero-container d-flex align-self-end">
+              <img src="assets/header-image.svg" alt="" class="hero-image">
+            </div>
+            </div>
         </div>
     </div>
 <!-- Home InGen end -->
       <!-- About InGen start -->
-      <div id="about" class="jumbotron2" style="padding-top: 50px;">
-        <div class="about-details text-white">
+      
+      <div id="about" class="jumbotron2" >
+        <img class="floater2" src="assets/circle.svg" alt="">
+        <div class="about-details">
             <div class="row  about-wrapper">
-                <div class="d-flex align-items-center col-xl-6 d-flex justify-content-center container-fluid">
+              <div id="letshide" class="d-flex align-items-center col-xl-6 justify-content-center" style="padding: 20px;">
+                
+                <div id="album" class="row d-flex align-items-center justify-content-center">
+                  <div class="hero-container d-flex align-self-end">
+                <img src="assets/about-image.png" alt=""  class="img-fluid about-img">
+                
+              </div>
+              <!-- <div class="polaroidL rotate_right p-0 col-md-6">
+                <img src="assets/1.png" alt=""  class="shadowL">
+                
+              </div>
+              
+              <div class="polaroidR rotate_left p-0 col-md-6">
+                <img src="assets/2.png" alt="" class="shadowR">
+                
+              </div> -->
+            </div>
+                </div>
+                <div class="d-flex align-items-center col-xl-6 d-flex justify-content-center container-fluid mom">
 
                     <div class="p-2 about-content">
 
@@ -72,8 +91,8 @@
                         <br>
                         <h3 class="subadd">Ingenuity’s goal is to participate in the growing community Flare Community which has inspired us to tap into decentralised development.</h3>
                         <div>
-                        <div><img src="assets/logos/Flare.svg" alt="" class="about-logo">
-                          <!-- <img src="assets/logos/XRPLedger.svg" alt="" class="about-logo"> -->
+                        <div class="dad"><img src="assets/logos/Flare.svg" alt="" class="about-logo">
+                          
                           <img src="assets/logos/Songbird.svg" alt="" class="about-logo">
                         </div>
                         
@@ -81,33 +100,22 @@
                     </div>
 
                 </div>
-                <div id="letshide" class="d-flex align-items-center col-xl-6 justify-content-center about-rightgraphic" style="padding: 20px;">
                 
-                  <div id="album" class="row d-flex align-items-center justify-content-center">
-                <div class="polaroidL rotate_right p-0 col-md-6">
-                  <img src="assets/1.png" alt=""  class="shadowL">
-                  
-                </div>
-                
-                <div class="polaroidR rotate_left p-0 col-md-6">
-                  <img src="assets/2.png" alt="" class="shadowR">
-                  
-                </div>
-              </div>
-                  </div>
                 
               </div>
             </div>
           </div>
+          <img class="floater3" src="assets/circle.svg" alt="">
       </div>
       <!-- About InGen end -->
 
 <!-- Services InGen start -->
       <div id="services" class="jumbotron3 jumbotron-fluid">
+        <img class="floater4" src="assets/circle.svg" alt="">
         <div class=" d-flex align-items-center justify-content-center">
             <div class="d-flex align-items-center justify-content-center flex-column" style="width: 100%; margin-top: 10%; margin-bottom: 10%;">
-<div><h1 class="display-1 text-center text-white fs-2x delegate">Why Choose Us?</h1>
-  <h2 class="text-white text-center subadd">FTSO InGen offers unique features as a Data Provider.</h2><br></div>
+<div><h1 class="display-1 text-center fs-2x delegate">Why Choose Us?</h1>
+  <h2 class=" text-center subadd">FTSO InGen offers unique features as a Data Provider.</h2><br></div>
 <div class="row d-flex align-items-center justify-content-center" style="width: 100%;height: 100%; padding-top: 50px;">
   <!-- item1 -->
   <div class="d-flex flex-row align-items-center xiomai">
@@ -116,7 +124,7 @@
       <div class="siopao d-flex align-items-center "> <img src="assets/s1.png" class="card-img-top" alt="..."></div>
       <div class="card-body">
         <h2 class="card-title" style="color: darkorange; font-size: 1.8vh;">InGen’s Development Program</h2><br>
-        <h3 class="card-text justify-content-xl-center" style="font-size: 1.5vh;">Discovering and being part of the Flare Community is the best path we have taken. Our Development Team is maximizing opportunities to create tools on-chain that may enable us to do more for the community.</h3>
+        <h3 class="card-text justify-content-xl-center text-white" style="font-size: 1.5vh;">Discovering and being part of the Flare Community is the best path we have taken. Our Development Team is maximizing opportunities to create tools on-chain that may enable us to do more for the community.</h3>
         
       </div>
     </div>
@@ -128,7 +136,7 @@
       <div class="card-body">
         <h2 class="card-title" style="color: darkorange; font-size: 1.8vh;">InGen’s SGB Delegations</h2>
         <br>
-        <h3 class="card-text justify-content-xl-center" style="font-size: 1.5vh;">We are aiming to prove ourselves among the Data Providers in the FTSO. Proud of our hardworking individuals whose focus is on the current market events that may affect pair prices accuracy especially on high volume scenarios. As a new data provider in the field, our duty is highly relevant in the space and we take it seriously.</h3>
+        <h3 class="card-text justify-content-xl-center text-white" style="font-size: 1.5vh;">We are aiming to prove ourselves among the Data Providers in the FTSO. Proud of our hardworking individuals whose focus is on the current market events that may affect pair prices accuracy especially on high volume scenarios. As a new data provider in the field, our duty is highly relevant in the space and we take it seriously.</h3>
         
       </div>
     </div>
@@ -140,7 +148,7 @@
       
       <div class="card-body">
         <h2 class="card-title" style="color: darkorange; font-size: 1.8vh;">Are you holding SGB?</h2><br>
-        <h3 class="card-text justify-content-xl-center" style="font-size: 1.5vh;">We encourage everyone to try and delegate to InGen Labs Incentive Delegation Program for the FTSO. With your support, we become stronger and stronger in our mission to build projects on the Flare Network</h3>
+        <h3 class="card-text justify-content-xl-center text-white" style="font-size: 1.5vh;">We encourage everyone to try and delegate to InGen Labs Incentive Delegation Program for the FTSO. With your support, we become stronger and stronger in our mission to build projects on the Flare Network</h3>
         
       </div>
     </div>
@@ -153,28 +161,42 @@
      
       <!-- Services InGen end -->
 <!-- footer start -->
-<div class="foot row">
-  <div class="col-sm-12 ">
-    <div class="container row d-flex">
-      <!-- <div class="logo">
-          <a href="#home"><img src="/assets/logo.png" class="ingen-logo" alt="InGen Labs"></a>
-      </div> -->
-      
-      <div class="col-xs-3 p-2">
-          <div class="row" style="width: 100%;" >
-              <div class="col-sm-2 m-2 "><a href="#home"><img src="assets/social/fb.png" alt=""  class="soc-links"></a></div>
-              <div class="col-sm-2 m-2 "><a href="#home"><img src="assets/social/tw.png" alt="" class="soc-links"></a></div>
-              <div class="col-sm-2 m-2"><a href="#home"><img src="assets/social/in.png" alt="" class="soc-links"></a></div>
-              
-              
-          
-      </div>
-    </div><div class="p-2 col-xs-9 d-flex text-right text-white align-items-center justify-content-center" style="min-width: 100vw; margin-left: -1.5vw;"><em>© 2021 Copyright All rights Reserved by <strong>Ingen Labs.</strong></em></div>
-  </div>
-  </div>
+
+<div id="services" class="jumbotron4">
   
- 
+     <div class="container justify-content-center align-items-center">
+<div class="row align-items-center justify-content-center mt-5"><img src="assets/ingenlogo.png" alt="" class="footer-logo mt-5 pt-5"></div>
+<div class="archives justify-content-center align-items-center" style="margin-top: 10vh;">
+  <div class="row justify-content-center align-items-center">
+      <!-- <div class="col-lg-6"><a href="#home" class="text-white fs-lg">LOREM IPSUM</a> <a href="#home" class="text-white fs-lg">LOREM IPSUM</a></div> -->
+      
+      <!-- <div class="col-md-3 row justify-content-center align-items-center"><a href="#home" class="archive-links">LOREM IPSUM</a></div>
+      <div class="col-md-3 row justify-content-center align-items-center"><a href="#home" class="archive-links">LOREM IPSUM</a></div>
+      <div class="col-md-3 row justify-content-center align-items-center"><a href="#home" class="archive-links">LOREM IPSUM</a></div>
+      <div class="col-md-3 row justify-content-center align-items-center"><a href="#home" class="archive-links">LOREM IPSUM</a></div> -->
 </div>
+</div>
+      <div class=" justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" >
+            <div class="">
+              <a href="#home" class="soc"><img src="assets/social/fb.png" alt=""  class="soc-links"></a>
+              <a href="#home" class="soc"><img src="assets/social/tw.png" alt="" class="soc-links"></a>
+              <a href="#home" class="soc"><img src="assets/social/in.png" alt="" class="soc-links"></a></div>
+            <!-- <div class="col col-md-4"><a href="#home"><img src="assets/social/tw.png" alt="" class="soc-links"></a></div>
+            <div class="col col-md-4"><a href="#home"><img src="assets/social/in.png" alt="" class="soc-links"></a></div> -->
+            
+            
+        
+    </div>
+    
+  </div>
+  <div class=" justify-content-center align-items-center">
+  <div class="row text-white align-items-center justify-content-center" style="margin-top: 5vh; width: 100%; font-size: 1.5vh;"><em>© 2021 <strong>Ingen Labs.</strong> All rights reserved.</em></div>
+</div>
+</div>
+</div>
+
+
 <!-- footer end -->
       <!-- smooth scroll script -->
       <script>
@@ -203,7 +225,20 @@
           });
       </script>
 
-  
+  <!-- activator -->
+  <script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("mainListDiv");
+    var btns = header.getElementsByClassName("btx");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("activex");
+      current[0].className = current[0].className.replace(" activex", "");
+      this.className += " activex";
+      });
+    }
+    </script>
+
   <script>
   $('.navTrigger').click(function () {
     $(this).toggleClass('active');
